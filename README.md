@@ -55,7 +55,7 @@ Contributors
 
 Licensing
 -------
-The MIT License (MIT). See [LICENSE](LICENSE) fro full license text.
+The MIT License (MIT). See [LICENSE](LICENSE) for full license text.
 
 
 Raspberry Pi is a trademark of the Raspberry Pi Foundation.
