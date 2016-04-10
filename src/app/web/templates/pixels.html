@@ -1,0 +1,17 @@
+{% extends "layout.html" %}
+{% block styles %}
+<link rel="stylesheet" type="text/css" href="{{ url_for('static', filename='pixels.style.css') }}">
+{% endblock %}
+{% block body %}
+<div class="container">
+	<div id="pixelgrid" class="pixelgrid"></div>
+	<br />
+	<ul class="list-unstyled">
+		<li>Pixels JSON: <a href="/api/pixels">/api/pixels</a></li>
+		<li>Pixel(row, column) JSON: <a href="/api/pixels/4/3">/api/pixels/:row/:column</a></li>
+	</ul>
+</div>
+{% endblock %}
+{% block script %}
+<script src="{{ url_for('static', filename='pixels.bundle.js') }}"></script>
+{% endblock %}

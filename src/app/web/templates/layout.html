@@ -6,12 +6,13 @@
 		<meta name="viewport" content="width=device-width, initial-scale=1">
 		<title>Pi Panther - APIs for Raspberry Pi</title>
 		<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css" integrity="sha384-1q8mTJOASx8j1Au+a5WDVnPi2lkFfwwEAa8hDDdjZlpLegxhjVME1fgjWPGmkzs7" crossorigin="anonymous">
-		<link rel="stylesheet" type="text/css" href="{{ url_for('static', filename='style.css') }}">
+		<link rel="stylesheet" type="text/css" href="{{ url_for('static', filename='common.style.css') }}">
 		<link rel="stylesheet" href="//fonts.googleapis.com/css?family=Roboto:100italic,100,300italic,300,400italic,400,500italic,500,700italic,700,900italic,900">
 		<!--[if lt IE 9]>
 		<script src="https://oss.maxcdn.com/html5shiv/3.7.2/html5shiv.min.js"></script>
 		<script src="https://oss.maxcdn.com/respond/1.4.2/respond.min.js"></script>
 		<![endif]-->
+		{% block styles %}{% endblock %}
 	</head>
 	<body>
 		<nav class="margin-zero">
@@ -26,9 +27,10 @@
 			<hr />
 			<p class="text-center">Made with <span class="glyphicon glyphicon-heart" aria-hidden="true"></span></p>
 			<p class="text-muted">Raspberry Pi is a trademark of the Raspberry Pi Foundation.</p>
-			<p class="text-muted">Copyright &copy; 2016 Mujahid Khaleel</p>
+			<p class="text-muted">Copyright &copy; 2016 Mujahid Khaleel.</p>
 		</div>
 		<script src="https://ajax.googleapis.com/ajax/libs/jquery/2.2.0/jquery.min.js"></script>
 		<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/js/bootstrap.min.js" integrity="sha384-0mSbJDEHialfmuBBQP6A4Qrprq5OVfW37PRR3j5ELqxss1yVqOtnepnHVP9aJ7xS" crossorigin="anonymous"></script>
+		{% block script %}{% endblock %}
 	</body>
 </html>

@@ -1,0 +1,39 @@
+$skyish: #00BFFF;
+$light: #FFFFFF;
+$humid: #0D47A1;
+
+@mixin border-radius($radius) {
+  -webkit-border-radius: $radius;
+     -moz-border-radius: $radius;
+      -ms-border-radius: $radius;
+          border-radius: $radius;
+}
+
+@mixin weather($color) {
+    @include border-radius(6px);
+    display: inline-block;
+    margin-top: 2em;
+    margin-left: 1em;
+    background-color: $color;
+    padding: 2em;
+    color: rgba( $light, .7 );
+    width: auto;
+    float: left;
+}
+
+#temperature {
+    @include weather($skyish);
+}
+
+#humidity {
+    @include weather($humid);
+ }
+
+.pi-label {
+    text-transform: uppercase;
+}
+
+.piunit, .large {
+    font-size: 200%;
+    color: rgba( $light, .9 );
+}

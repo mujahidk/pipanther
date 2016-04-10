@@ -37,6 +37,8 @@ Projects used
 -------------
  - [Flask](http://flask.pocoo.org)
  - [Sense HAT Python module](https://pythonhosted.org/sense-hat/)
+ - [React](https://facebook.github.io/react/)
+ - [Webpack](https://webpack.github.io/)
  - and more...
 
 TODO

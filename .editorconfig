@@ -11,11 +11,8 @@ trim_trailing_whitespace = true
 trim_trailing_whitespace = false
 
 # UTF-8 charset
-[*.{js,jsx,py,json,css}]
+[*.{js,jsx,py,json,css,scss}]
 charset = utf-8
-
-# 4 space indentation
-[*.py,css]
 indent_style = space
 indent_size = 4
 
