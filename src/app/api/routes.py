@@ -49,7 +49,7 @@ def temperature():
     GET /temperature
     """
     celsius = sense.get_temperature()
-    fahrenheit = (celsius*(9/5))+32
+    fahrenheit = (celsius*9/5.0)+32
     celsius_from_humidity = sense.get_temperature_from_humidity()
     celsius_from_pressure = sense.get_temperature_from_pressure()
     return jsonify(celsius=celsius, \
