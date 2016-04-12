@@ -53,7 +53,7 @@ TODO
 
 Contributors
 ------------
-- [Mujahid Khaleel](https://github.com/mujahidkhaleel)
+- [Mujahid Khaleel](https://github.com/mujahidk)
 
 Licensing
 -------
