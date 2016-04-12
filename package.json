@@ -4,7 +4,7 @@
   "description": "APIs for Raspberry Pi",
   "repository": {
     "type": "git",
-    "url": "git@github.com:/mujahidkhaleel/pipanther.git"
+    "url": "git@github.com:/mujahidk/pipanther.git"
   },
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
