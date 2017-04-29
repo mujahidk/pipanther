@@ -1,0 +1,20 @@
+{% extends "layout.html" %}
+{% block styles %}
+<link rel="stylesheet" type="text/css" href="{{ url_for('static', filename='cels.style.css') }}">
+{% endblock %}
+{% block body %}
+<div class="container">
+	<div class="row">
+	  <div id="temperature" class="col-md-1"></div>
+	  <div id="humidity" class="col-md-1"></div>
+	</div>
+	<br />
+	<ul class="list-unstyled">
+		<li>Temperature JSON: <a href="/api/temperature">/api/temperature</a></li>
+		<li>Humidity JSON: <a href="/api/humidity">/api/humidity</a></li>
+	</ul>
+</div>
+{% endblock %}
+{% block script %}
+<script src="{{ url_for('static', filename='cels.bundle.js') }}"></script>
+{% endblock %}

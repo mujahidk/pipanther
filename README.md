@@ -37,6 +37,8 @@ Projects used
 -------------
  - [Flask](http://flask.pocoo.org)
  - [Sense HAT Python module](https://pythonhosted.org/sense-hat/)
+ - [React](https://facebook.github.io/react/)
+ - [Webpack](https://webpack.github.io/)
  - and more...
 
 TODO
@@ -51,11 +53,11 @@ TODO
 
 Contributors
 ------------
-- [Mujahid Khaleel](https://github.com/mujahidkhaleel)
+- [Mujahid Khaleel](https://github.com/mujahidk)
 
 Licensing
 -------
-The MIT License (MIT). See [LICENSE](LICENSE) fro full license text.
+The MIT License (MIT). See [LICENSE](LICENSE) for full license text.
 
 
 Raspberry Pi is a trademark of the Raspberry Pi Foundation.

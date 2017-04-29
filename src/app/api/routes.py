@@ -48,14 +48,14 @@ def temperature():
 
     GET /temperature
     """
-    celcius = sense.get_temperature()
-    fahrenheit = (celcius*(9/5))+32
-    celcius_from_humidity = sense.get_temperature_from_humidity()
-    celcius_from_pressure = sense.get_temperature_from_pressure()
-    return jsonify(celcius=celcius, \
+    celsius = sense.get_temperature()
+    fahrenheit = (celsius*9/5.0)+32
+    celsius_from_humidity = sense.get_temperature_from_humidity()
+    celsius_from_pressure = sense.get_temperature_from_pressure()
+    return jsonify(celsius=celsius, \
         fahrenheit=fahrenheit, \
-        celcius_from_pressure=celcius_from_pressure, \
-        celcius_from_humidity=celcius_from_humidity)
+        celsius_from_pressure=celsius_from_pressure, \
+        celsius_from_humidity=celsius_from_humidity)
 
 @api.route('/humidity', methods=['GET'])
 def humidity():

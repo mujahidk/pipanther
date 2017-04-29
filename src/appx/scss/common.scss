@@ -1,0 +1,34 @@
+$gradient-begin: #12007F;
+$gradient-end: #960573;
+
+body {
+	font-family: Roboto, helvetica, sans-serif;
+}
+
+.margin-zero {
+	background-color: rgba(150, 5, 115, 0.05);
+}
+
+.intro {
+	padding: 2em 2em;
+	background: $gradient-begin;
+	background: -webkit-linear-gradient($gradient-begin, $gradient-end);
+	background:    -moz-linear-gradient($gradient-begin, $gradient-end);
+	background:         linear-gradient(125deg, $gradient-begin, $gradient-end);
+	color: rgba(255, 255, 255, 0.8);
+	height: 100%;
+}
+
+@media screen and (min-width: 480px) {
+    .intro {
+        padding: 6em 2em;
+    }
+}
+
+.intro p {
+	color: rgba(255, 255, 255, 0.6);
+}
+
+.navbar-brand {
+	color: $gradient-begin;
+}

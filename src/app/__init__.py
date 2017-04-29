@@ -15,7 +15,7 @@ __version__ = "0.1.0-alpha"
 app = Flask(__name__)
 
 # Add api prefix
-app.register_blueprint(site, url_prefix='/')
+app.register_blueprint(site, url_prefix='')
 app.register_blueprint(api, url_prefix='/api')
 
 @app.errorhandler(404)

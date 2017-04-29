@@ -1,7 +1,7 @@
 *.pyc
 instance/
-access.log
+log/
 venv/
 node_modules/
-src/app/static/bundle.js
+src/app/static/
 pylint.log
